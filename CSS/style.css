@@ -5,6 +5,9 @@
 
 .navbar {
     display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0px;
 }
 
 .logo {
@@ -54,4 +57,54 @@
     background: rgba(0, 0, 0, 0.7) url(../Images/background.jpg);
     background-blend-mode: darken;
     background-size: cover;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    height: 80%;
+    margin: auto;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.firstHalf {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 35%;
+}
+
+.secondHalf img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: xx-large;
+}
+
+.text-small {
+    font-size: medium;
+}
+
+.btn {
+    color: white;
+    margin: 7px;
+    background: none;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 7px 20px;
+    cursor: pointer;
 }
