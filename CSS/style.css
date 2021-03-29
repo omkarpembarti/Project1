@@ -108,3 +108,24 @@
     padding: 7px 20px;
     cursor: pointer;
 }
+
+.contact {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form {
+    margin-top: 15px;
+}
+
+.form input {
+    width: 50%;
+    font-size: 24px;
+    margin-top: 13px;
+    border: 2px solid black;
+    border-radius: 9px;
+    height: 40px;
+    ;
+}
